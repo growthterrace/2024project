@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import pyzed.sl as sl
 from ultralytics import YOLO
-
+  
 # YOLO 모델 불러오기
 model = YOLO('runs/segment/train2/weights/best.pt')  # 훈련된 YOLO 모델 경로
 
